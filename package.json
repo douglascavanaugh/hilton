@@ -1,0 +1,44 @@
+{
+  "name": "HiltonReservations",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android",
+    "test": "jest",
+    "lint": "eslint .",
+    "devtools": "react-devtools",
+    "clean": "watchman watch-del-all && rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/metro-bundler-cache-* && rm -rf node_modules/ && npm cache clean --force && npm install && npm i jetifier && npx jetify && react-native run-android -- --reset-cache"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.4.3",
+    "graphql": "^14.4.2",
+    "jetifier": "^1.6.3",
+    "react": "16.8.6",
+    "react-apollo": "^2.5.8",
+    "react-apollo-hooks": "^0.5.0",
+    "react-native": "0.60.3",
+    "react-native-daterange": "^2.3.12",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-paper": "^2.16.0",
+    "react-native-simple-dialogs": "^1.1.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^3.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/runtime": "^7.5.4",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.0.1",
+    "flow-bin": "0.98.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.55.0",
+    "react-devtools": "^3.6.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
