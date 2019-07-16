@@ -27,11 +27,7 @@ The following dependencies were used to facilitate building the UI, routing, and
 3. Open your preferred terminal/Shell and navigate to the directory where you decompressed the file
 4. At the command prompt, type:
 ```sh
-$ npm install
-```
-or
-```sh
-$ yarn install
+$ yarn clean
 ```
 5. Once the dependencies have finshed installing, you can run the project by typing either:
 ```sh
@@ -65,7 +61,7 @@ _Run the following commands:_
 **Package.json Shortcut Scripts:**
 In the event the App becomes unresponsive or the Metro Bundler hangs, run this script at the command line:
 ```sh
-$ clean
+$ yarn clean
 ```
 This executes the following commands to clear watchman, cache, and reinstalls dependencies etc.:
 
