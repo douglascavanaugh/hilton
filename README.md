@@ -10,7 +10,6 @@ The following dependencies were used to facilitate building the UI, routing, and
 | `react-navigation` | Routing and Screen Transitions |
 | `react-native-gesture-handler` | Dependency of React-Navigation |
 | `apollo-boost, react-apollo, graphql` | Connection to GraphQL server and GraphQL Queries |
-| `react-apollo-hooks` | To Show additional Capability of Utilizing Hooks for Mutations |
 | `react-native-paper` | Lightweight Material UI Components (As opposed to Nativebase) |
 | `react-native-vector-icons` | Material Icons |
 | `react-native-daterange` | Cross Platform Date Picker |

@@ -1,16 +1,16 @@
-import { createStackNavigator, createAppContainer } from "react-navigation";
+import { createStackNavigator, createAppContainer } from 'react-navigation';
 
-import HotelReservationList from "./../components/HotelReservationList";
-import HotelReservations from "./../components/HotelReservations";
-import HotelReservationDetails from "./../components/HotelReservationDetails";
+import HotelReservationList from './../components/HotelReservationList';
+import HotelReservations from './../components/HotelReservations';
+import HotelReservationDetails from './../components/HotelReservationDetails';
 
-import navStyles from "./styles/Styles";
+import navStyles from './styles/Styles';
 
 const MainStack = createStackNavigator({
   HotelReservationList: {
     screen: HotelReservationList,
     navigationOptions: () => ({
-      title: "Hilton Listings",
+      title: 'Hilton Listings',
       headerBackTitle: null,
       ...navStyles
     })
@@ -18,7 +18,7 @@ const MainStack = createStackNavigator({
   HotelReservations: {
     screen: HotelReservations,
     navigationOptions: () => ({
-      title: "Hilton Reservations",
+      title: 'Hilton Reservations',
       headerBackTitle: null,
       ...navStyles
     })
@@ -26,13 +26,13 @@ const MainStack = createStackNavigator({
   HotelReservationDetails: {
     screen: HotelReservationDetails,
     navigationOptions: () => ({
-      title: "Hilton Reservation Details",
+      title: 'Hilton Reservation Details',
       headerBackTitle: null,
       headerLeft: null,
       ...navStyles
     })
   },
-  initialRouteName: "HotelReservationList"
+  initialRouteName: 'HotelReservationList'
 });
 
 export default createAppContainer(MainStack);

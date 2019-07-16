@@ -1,15 +1,15 @@
-import React, { Fragment } from "react";
-import { FlatList, View, Text } from "react-native";
+import React, { Fragment } from 'react';
+import { FlatList, View, Text } from 'react-native';
 import { Card } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import { graphql } from "react-apollo";
-import { Query } from "react-apollo";
-import gql from "graphql-tag";
+import { graphql } from 'react-apollo';
+import { Query } from 'react-apollo';
+import gql from 'graphql-tag';
 
 import { HonoluluImage } from './../../assets/images';
 
-import styles from "./../../components/styles/Styles";
+import styles from './../../components/styles/Styles';
 
 const GET_HOTELS_QUERY = gql`
   {

@@ -67,11 +67,11 @@ const ReservationForm = ({ navigation, onSubmit }) => {
                 contentText: { fontSize: 18 }
               }}
               placeholder={'Select your Date Range...'}
-              selectedBgColor="#3f51b5"
-              selectedTextColor="white"
+              selectedBgColor='#3f51b5'
+              selectedTextColor='white'
               onConfirm={date => setDateDuration(date)}
               returnFormat='MM/DD/YYYY'
-              mode="range"
+              mode='range'
             />
           </View>
           {/* TODO: Separate out into it's own Element for reuse */}
@@ -91,7 +91,7 @@ const ReservationForm = ({ navigation, onSubmit }) => {
           visible={showModal}
           onTouchOutside={hideModalDialog}
           positiveButton={{
-            title: "Close",
+            title: 'Close',
             onPress: () => hideModalDialog()
           }}
         >

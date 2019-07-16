@@ -1,10 +1,10 @@
-import React from "react";
-import { ScrollView, View } from "react-native";
+import React from 'react';
+import { ScrollView, View } from 'react-native';
 import { Avatar, Card } from 'react-native-paper';
 
 import { WaterFrontBeachImage } from './../assets/images';
 
-import styles from "./styles/Styles";
+import styles from './styles/Styles';
 
 import PostReservationMutation from '../data/mutations/PostReservationMutation';
 

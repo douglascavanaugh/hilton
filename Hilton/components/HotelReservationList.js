@@ -1,8 +1,8 @@
-import React, { Fragment } from "react";
-import { View } from "react-native";
+import React, { Fragment } from 'react';
+import { View } from 'react-native';
 import { Avatar, Card, Paragraph } from 'react-native-paper';
 
-import styles from "./styles/Styles";
+import styles from './styles/Styles';
 
 import GetHotelsQuery from '../data/queries/GetHotelsQuery';
 

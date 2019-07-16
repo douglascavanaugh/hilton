@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { Text } from "react-native";
+import React from 'react';
 import { graphql } from "react-apollo";
 import { Mutation } from 'react-apollo';
 import gql from "graphql-tag";
@@ -22,7 +21,7 @@ const PostReservationMutation = ({ navigation }) => {
       {(insertReservation, { loading, error }) => {
         newReservation = ({ id, hotelName, name, dateRange }) => {
           if (loading) return console.log('Loading...');
-          if (error) return console.log('HEY Heres the Error: ', error.message);
+          if (error) return console.log('Error: ', error.message);
           insertReservation({
             variables: {
               id: id,

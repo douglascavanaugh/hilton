@@ -1,10 +1,10 @@
-import React, { Fragment } from "react";
-import { Platform, View } from "react-native";
+import React, { Fragment } from 'react';
+import { Platform, View } from 'react-native';
 import { Avatar, Card } from 'react-native-paper';
 
 import { LobbyImage } from './../assets/images';
 
-import styles from "./styles/Styles";
+import styles from './styles/Styles';
 
 import GetHotelDetailsQuery from '../data/queries/GetHotelDetailsQuery';
 

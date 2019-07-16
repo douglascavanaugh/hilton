@@ -147,6 +147,6 @@ export default StyleSheet.create({
     marginTop: 40,
     fontWeight: '800',
     width: 150,
-    left: '28%'
+    left: '27%'
   },
 });

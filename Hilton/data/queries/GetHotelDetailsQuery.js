@@ -1,12 +1,12 @@
-import React from "react";
-import { View, Text } from "react-native";
+import React from 'react';
+import { View, Text } from 'react-native';
 import { Button, Divider } from 'react-native-paper';
-import { graphql } from "react-apollo";
-import { Query } from "react-apollo";
-import gql from "graphql-tag";
+import { graphql } from 'react-apollo';
+import { Query } from 'react-apollo';
+import gql from 'graphql-tag';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import styles from "./../../components/styles/Styles";
+import styles from './../../components/styles/Styles';
 
 const GET_HOTEL_QUERY = gql`
   query HotelDetails($id: ID!) {
