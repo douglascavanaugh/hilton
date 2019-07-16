@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   container: {
@@ -30,7 +30,7 @@ export default StyleSheet.create({
     borderWidth: 1,
     borderColor: '#d6d7da'
   },
-  reservationButtion: {
+  reservationButton: {
     marginTop: 30,
     fontWeight: '800',
     width: 150,

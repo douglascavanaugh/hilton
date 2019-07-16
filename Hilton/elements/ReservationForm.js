@@ -79,7 +79,7 @@ const ReservationForm = ({ navigation, onSubmit }) => {
           <Button
             mode="contained"
             onPress={validateForm}
-            style={styles.reservationButtion}
+            style={styles.reservationButton}
           >
             Reserve Now
           </Button>
