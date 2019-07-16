@@ -71,6 +71,7 @@ const ReservationForm = ({ navigation, onSubmit }) => {
               selectedTextColor='white'
               onConfirm={date => setDateDuration(date)}
               returnFormat='MM/DD/YYYY'
+              blockBefore='true'
               mode='range'
             />
           </View>
