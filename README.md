@@ -31,11 +31,11 @@ $ yarn clean
 ```
 5. Once the dependencies have finshed installing, you can run the project by typing either:
 ```sh
-$ react-native run-ios
+$ yarn ios
 ```
 or
 ```sh
-$ react-native run-android
+$ yarn android
 ```
 
 ### Troubleshooting Instructions:
